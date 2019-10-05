@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   array_len = array.length
-  array_len.Times do |index|
+  array_len.times do |index|
     if array[index] == value_to_find
       return index
     end
