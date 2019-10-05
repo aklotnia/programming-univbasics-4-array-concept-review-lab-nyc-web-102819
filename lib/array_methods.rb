@@ -14,7 +14,6 @@ def find_max_value(array)
   array_len.times do |index|
     if array[index] > starting_num
       starting_num = array[index]
-    else
     end
   end
 end
